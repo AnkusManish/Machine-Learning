@@ -9,7 +9,7 @@ Created on Wed Jul 31 23:01:14 2019
 a = set([1,2,3,4,5])
 b = set([2,4,7,8,5])
 
-#union() method returns the values present in seta and setb
+#union() method returns all the values present in seta and setb
 res = a.union(b)
 
 print(res)
