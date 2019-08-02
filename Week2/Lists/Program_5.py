@@ -9,4 +9,4 @@ Created on Wed Jul 31 23:50:39 2019
 a = [(2, 5), (1, 2), (4, 4), (2, 3), (2, 1)]
 
 #sorting elements based on the last element in the tuple
-print(sorted(a, key = lambda x : x[-1]))
+print(sorted(a, key = lambda x : x[1]))
